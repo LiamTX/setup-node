@@ -23,5 +23,9 @@
     "paths": {
       "@controllers/*": ["./src"]
     }
-  }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/*.ts"
+  ]
 }
